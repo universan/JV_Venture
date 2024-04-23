@@ -8,7 +8,7 @@ import partner_3_img from '@/public/image/retreat/partner_3.png';
 
 export default function Partnership() {
   return (
-    <div id="partnership-container" className="relative p-4 mb-4">
+    <div id="partnership-container" className="relative p-4">
       <div className='h-screen'>
       <div className="flex justify-center items-center">
         <button className="relative mt-24 bg-green-200  hover:bg-green-600 px-4 py-1 rounded-2xl text-green-500 hover:text-white h-8 w-28 font-black text-xs uppercase cursor-pointer ">
@@ -23,7 +23,7 @@ export default function Partnership() {
           >
             PARTNERSHIP OPPORTUNITY
           </p>
-          <p className="text-4xl text-blue-900 font-bold text-center z-20 relative m-24 dark:text-gray-300">
+          <p className="text-4xl text-yellow-900 font-bold text-center z-20 relative m-24 dark:text-gray-300">
             Sponsorship For Wellness Retreats 
 
           </p>
@@ -31,7 +31,7 @@ export default function Partnership() {
       </div>
       
       <div className="justify-center m-20 bottom-8">
-        <p className="font-medium text-base text-center text-bluePText">
+        <p className="font-medium text-base text-center text-yellow-800">
         At JV Ventures, we specialize in organizing transformative wellness retreats that offer participants a unique opportunity to rejuvenate their mind, body, and spirit in serene and rejuvenating environments. 
 
         <br />Our retreats focus on holistic wellness practices, including yoga, meditation, mindfulness, nutrition, and outdoor activities, all aimed at promoting physical, mental, and emotional well-being.
@@ -45,7 +45,7 @@ export default function Partnership() {
       <div className="relative ">
         <div className="flex flex-col justify-center items-center m-20">
           <p
-            className="text-5xl sm:text-6xl text-blue-900 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
+            className="text-5xl sm:text-6xl text-yellow-900 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
           "
           >
             Why You Should Sponsor
@@ -54,7 +54,7 @@ export default function Partnership() {
       </div>
 
       <div className="flex flex-col gap-5 m-10"> 
-        <div className="whitespace-normal h-[80] m-10 overflow-hidden dark:bg-slate-700">
+        <div className="whitespace-normal m-10 overflow-hidden dark:bg-slate-700">
             <div className="flex flex-col sm:flex-row items-center gap-10 relative"> 
                 {/* <Image 
                   src={circle}
@@ -62,7 +62,7 @@ export default function Partnership() {
                   className="absolute z-10 top-[-50px] right-[0px] bg-no-repeat object-cover object-center"
                 />  */}
                 <div className="basis-1/3 md:basis-1/2 p-4">
-                  <p className="font-medium text-base mt-2  text-bluePText">
+                  <p className="font-medium text-xl mt-2  text-yellow-800">
                   1.  Brand Exposure:<br/>
                   Your logo and branding will be prominently featured
                   in our promotional materials, including event signage, marketing collateral, and social media channels, reaching thousands of potential customers who are passionate about wellness.
@@ -84,7 +84,7 @@ export default function Partnership() {
                 
             </div>
         </div>    
-        <div className="whitespace-normal h-[80] m-10 overflow-hidden opacity:0 dark:bg-slate-700">
+        <div className="whitespace-normal  m-10 overflow-hidden opacity:0 dark:bg-slate-700">
             <div className="flex flex-col sm:flex-row items-center gap-10">    
                 <div className="relative basis-1/3 md:basis-1/2 relative">
                     <Image
@@ -99,7 +99,7 @@ export default function Partnership() {
                         className="absolute z-10 opacity-50 rotate-180 bottom-[-100px] left-[-200px] bg-no-repeat object-cover object-center"
                 /> */}
                 <div className="basis-2/3 md:basis-1/2 p-4 whitespace-normal ">
-                    <p className="font-medium text-base mt-2  text-bluePText">
+                    <p className="font-medium text-xl mt-2  text-yellow-800">
                     3. Positive Brand Association:
                     Aligning your brand with our wellness retreats will enhance your reputation as a socially responsible company that prioritizes the well-being of its customers and employees.
                     <br />
@@ -111,15 +111,15 @@ export default function Partnership() {
 
             </div>
         </div>  
-        <div className="whitespace-normal h-[80] m-10 overflow-hidden dark:bg-slate-700">
+        <div className="whitespace-normal  m-10 overflow-hidden dark:bg-slate-700">
             <div className="flex flex-col sm:flex-row items-center gap-10 relative"> 
                 {/* <Image 
                   src={circle}
                   alt="leaf image"
                   className="absolute z-10 top-[-50px] right-[0px] bg-no-repeat object-cover object-center"
                 />  */}
-                <div className="basis-1/3 md:basis-1/2 p-4">
-                  <p className="font-medium text-base mt-2  text-bluePText">
+                <div className="basis-2/3 p-4">
+                  <p className="font-medium text-xl mt-2  text-yellow-800">
                   We believe that a partnership between your company and JV Ventures has the potential to create a mutually beneficial relationship that not only promotes wellness but also generates positive brand exposure and fosters community engagement.
 
                   <br />We would love the opportunity to discuss this partnership further and explore how we can work together to create meaningful and impactful wellness experiences for our participants.
@@ -131,7 +131,7 @@ export default function Partnership() {
 
                   </p>
                 </div>  
-                <div className="relative basis-2/3 md:basis-1/2 whitespace-normal">
+                <div className="relative basis-1/3 whitespace-normal">
                     <Image
                         className="w-full h-full object-contain object-cover"
                         src={partner_3_img}

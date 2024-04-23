@@ -4,10 +4,12 @@ import house_1 from "@/public/image/house_1.png"
 import retreat_1 from "@/public/image/retreat_1.png"
 import arch from "@/public/image/arch1.png"
 import welcome_img from "@/public/image/welcome.png" 
+import awakening_img from "@/public/image/awakening.png" 
+import purpose_img from "@/public/image/purpose.png" 
 
 export default function Home() {
   return (
-    <main className="flex flex-col bg-sky-100 pt-8 w-full">
+    <main className="flex flex-col bg-[#e7ddd3] pt-8 w-full">
       <div className="w-full h-screen relative ">
         <div className="relative h-screen text-center flex flex-col justify-center items-center">
           <div className="flex flex-row ">
@@ -56,12 +58,12 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-row m-10 p-5">
-        <div className="basis-2/3 h-full">
+        <div className="basis-3/4 h-full bg-[#cfbdaa]">
           <div className="">
-            <p className="mt-10  font-medium text-base text-5xl sm:text-7xl md:text-10xl text-blue-900">
+            <p className="m-10  font-serif text-base text-5xl sm:text-7xl md:text-10xl text-yellow-900">
               Welcome <br /> Message
             </p>
-            <p className="mt-10  font-medium text-1xl sm:text-3xl md:text-3xl text-blue-700">
+            <p className="m-10  font-serif text-1xl sm:text-3xl md:text-3xl text-yellow-800">
               Welcome to JV Ventures Retreats, where personal transformation meets empowerment. 
               My journey began during the unprecedented times of the Covid-19 pandemic, when the world seemed to slow down, and introspection became a
               necessity rather than a luxury.
@@ -69,7 +71,7 @@ export default function Home() {
             
           </div>
         </div>
-        <div className="basis-1/3 flex flex-col items-center justify-center p-2">
+        <div className="basis-1/4 flex flex-col items-center justify-center p-2">
           <Image 
             src={welcome_img}
             alt="welcome message"
@@ -77,7 +79,53 @@ export default function Home() {
           />
         </div>
       </div>
+      <div className="flex flex-row m-10 p-5">
+        <div className="basis-1/4 flex flex-col items-center justify-center p-2">
+          <Image 
+            src={awakening_img}
+            alt="welcome message"
+            className="w-full"
+          />
+        </div>
+        <div className="basis-3/4 h-full bg-[#cfbdaa]">
+          <div className="">
+            <p className="m-10 font-serif text-base text-5xl sm:text-7xl md:text-10xl text-yellow-900 text-right">
+              The Awakening
+            </p>
+            <p className="m-10  font-serif text-1xl sm:text-3xl md:text-3xl text-yellow-800">
+            Like many, I found myself facing unexpected challenges and uncertainties as the pandemic unfolded. The disruptions to daily life forced me to pause, reflect, and reevaluate my priorities. It was during this time of introspection that I embarked on a profound journey of self-discovery and awakening.
+            <br />As the world around me shifted, I realized the opportunity for growth that lay within the chaos. I embraced change with an open heart and an open mind, seeking wisdom in moments of solitude and solace in the beauty of nature.
 
+            <br />Through meditation, mindfulness practices, and self-reflection, I began to uncover deeper truths about myself and my purpose in life.
+
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-row m-10 p-5">
+        <div className="basis-3/4 h-full bg-[#cfbdaa]">
+          <div className="">
+            <p className="m-10  font-serif text-base text-5xl sm:text-7xl md:text-10xl text-yellow-900">
+            Finding Purpose
+
+            </p>
+            <p className="m-10  font-serif text-1xl sm:text-3xl md:text-3xl text-yellow-800">
+            The challenges of the pandemic served as a catalyst for profound inner transformation. I discovered a newfound sense of clarity, purpose, and alignment with my authentic self. It was through this process of
+            self-discovery that JV Ventures was born, a platform dedicated to empowering others on their own journey of personal growth and fulfillment, by teaming up with the people and teachers that I discovered along the way, and can nowshare with others.
+
+            </p>
+            
+          </div>
+        </div>
+        <div className="basis-1/4 flex flex-col items-center justify-center p-2">
+          <Image 
+            src={purpose_img}
+            alt="welcome message"
+            className="w-full h-auto"
+          />
+        </div>
+      </div>
     </main>
   );
 }

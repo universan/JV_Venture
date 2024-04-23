@@ -5,7 +5,7 @@ const CardAbout = ({title, description,  imageSrc }) => {
     <div className="w-[350px]  hover:scale-105 ease-in duration-200 mx-auto bg-white rounded-xl shadow-md overflow-hidden dark:bg-slate-700">
       <div className="flex flex-col items-center">    
         <div className="p-4">
-          <div className="capitalize text-cardText font-black text-[15px] leading-[30px] dark:text-white">
+          <div className="capitalize text-cardText font-bold text-yellow-800 text-[20px] leading-[30px] dark:text-white">
             {title}
           </div>
         </div>
@@ -19,7 +19,7 @@ const CardAbout = ({title, description,  imageSrc }) => {
           />
         </div>
         <div className="p-4">
-          <p className="font-medium text-base mt-2  text-bluePText">
+          <p className="font-medium text-base mt-2  text-yellow-700">
             {description}
           </p>
         </div>

@@ -61,7 +61,7 @@ const Dashboard = ({ address, phone, email }) => {
           <div className="absolute bottom-8 w-full text-center ">
             <button
               onClick={showMoreBtn}
-              className=" text-blue-900 text-xl capitalize shadow-lg bg-white hover:bg-orange-500 hover:text-white px-4 py-1 rounded-3xl h-14 w-36"
+              className=" text-yellow-900 text-xl capitalize shadow-lg bg-white hover:bg-orange-500 hover:text-white px-4 py-1 rounded-3xl h-14 w-36"
             >
               show more
             </button>

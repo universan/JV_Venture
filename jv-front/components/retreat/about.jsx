@@ -25,19 +25,19 @@ export default function About() {
       <div className="relative ">
         <div className="flex flex-col justify-center items-center mt-20">
           <p
-            className="text-9xl sm:text-10xl text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
+            className="text-9xl sm:text-10xl text-blue-700 opacity-5 font-serif font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
           "
           >
             OUR IDEA
           </p>
-          <p className="text-4xl text-blue-900 font-bold text-center z-20 relative mt-16 dark:text-gray-300">
+          <p className="text-4xl text-yellow-900 font-bold font-serif text-center z-20 relative mt-16 dark:text-gray-300">
             You Will Find the Best Option
           </p>
         </div>
       </div>
 
       <div className="relative justify-center items-center">
-        <p className="font-medium text-base text-center mt-20  text-bluePText">
+        <p className="font-serif text-base text-center text-yellow-800 mt-20 ">
             In the bustling rhythm of modern life, it's easy to get caught up in the whirlwind of tasks and responsibilities, losing touch with ourselves and each other along the way. 
             <br />
             That's why we're excited to introduce various themed retreats: from women's only, co-ed, couples, business and youth, so whatever your need, we have a retreat for you. 
@@ -56,7 +56,7 @@ export default function About() {
                     />
                 </div>
                 <div className="basis-2/3 p-4">
-                    <p className="font-medium text-base mt-2  text-bluePText">
+                    <p className="font-serif text-base mt-2  text-yellow-700 ">
                         At JV Ventures, we recognize the profound benefits that retreats offer in fostering personal growth, team cohesion, and collective well-being. That's why we're committed to creating opportunities for retreat experiences that nurture mind, body, and spirit.
 
                     </p>
@@ -73,7 +73,7 @@ export default function About() {
                     />
                 </div>
                 <div className="basis-2/3 p-4">
-                    <p className="font-medium text-base mt-2  text-bluePText">
+                    <p className="font-serif text-base mt-2  text-yellow-700">
                     Join us on this journey of self-discovery, connection, and renewal by attending one of our Retreats. Together, let's embrace the transformative power of retreats and cultivate a culture of flourishing.
 
                     </p>
@@ -85,12 +85,12 @@ export default function About() {
       <div className="relative ">
         <div className="flex flex-col justify-center items-center m-20">
           <p
-            className="text-5xl sm:text-6xl text-blue-900 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
+            className="text-5xl sm:text-6xl text-yellow-900 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
           "
           >
             Retreats aren't just a luxury. <br /> they're a necessity in today's fast-paced world
           </p>
-          <p className="text-4xl text-blue-900 font-bold text-center z-20 relative mt-16 dark:text-gray-300">
+          <p className="text-4xl text-yellow-900 font-bold text-center z-20 relative mt-16 dark:text-gray-300">
             Here's Why
           </p>
         </div>

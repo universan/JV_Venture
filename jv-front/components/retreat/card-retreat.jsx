@@ -12,18 +12,18 @@ const CardRetreat = ({title, description, period, imageSrc }) => {
             alt="retreat image"
           />
         </div>
-        <div className="p-4">
-          <div className="capitalize text-cardText font-black text-[15px] leading-[30px] dark:text-white">
+        <div className="p-2">
+          <div className="capitalize text-cardText font-black text-yellow-800 text-[20px] leading-[30px] dark:text-white">
             {title}
           </div>
         </div>
-        <div className="p-4">
-          <p className="font-medium text-base mt-2  text-bluePText">
+        <div className="p-2">
+          <p className="font-medium text-base p-1  text-yellow-800">
             {description}
           </p>
         </div>
-        <div className="p-4">
-          <p className="font-medium text-base mt-2  text-bluePText">
+        <div className="p-2">
+          <p className="font-medium text-base p-1  text-yellow-800">
             {period}
           </p>
         </div>

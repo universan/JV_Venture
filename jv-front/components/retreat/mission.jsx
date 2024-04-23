@@ -23,14 +23,14 @@ export default function Mission() {
           >
             OUR MISSION
           </p>
-          <p className="text-4xl text-blue-900 font-bold text-center z-20 relative mt-16 dark:text-gray-300">
+          <p className="text-4xl text-yellow-900 font-bold text-center z-20 relative mt-16 dark:text-gray-300">
             We Will Work For You
           </p>
         </div>
       </div>
       
       <div className="flex flex-col gap-5 m-10">
-        <div className="h-80 m-10 overflow-hidden opacity:0 dark:bg-slate-700">
+        <div className="whitespace-normal m-10 overflow-hidden opacity:0 dark:bg-slate-700">
             <div className="flex flex-col sm:flex-row items-center gap-10">    
                 <div className="relative basis-1/3 md:basis-1/2">
                     <Image
@@ -39,8 +39,8 @@ export default function Mission() {
                         alt="retreat image"   
                     />
                 </div>
-                <div className="basis-2/3 md:basis-1/2 text-wrap p-4 relative whitespace-normal">
-                    <p className="font-medium text-base mt-2  text-bluePText w-full h-full">
+                <div className="basis-2/3 md:basis-1/2 p-4 relative whitespace-normal">
+                    <p className="font-medium text-xl mt-2  text-yellow-800 w-full h-full">
                         Our mission is simple yet profound: to inspire and empower individuals to awaken to their fullest potential and live authentically from the heart. We believe that true transformation begins from within and that each of us has the power to create the life we desire.
                         <br />From transformative retreats and workshops to guided meditation sessions and personalized coaching, we offer a range of experiences designed to support you on your journey of self-discovery and empowerment. 
                         <br />Our approach is holistic, honoring the mind, body, and spirit, and our teachings draw upon
@@ -54,22 +54,22 @@ export default function Mission() {
                 </div>
             </div>
         </div>    
-        <div className="h-80 m-10 overflow-hidden dark:bg-slate-700">
+        <div className="whitespace-normal m-10 overflow-hidden dark:bg-slate-700">
             <div className="flex flex-col sm:flex-row items-center gap-10">  
-                 <div className="basis-1/3 md:basis-1/2 p-4 relative">
+                 <div className="basis-1/3 md:basis-1/2 p-4 relative whitespace-normal">
                     <Image 
                         src={leaf}
                         alt="leaf image"
                         className="absolute -z-10 opacity-50 rotate-180 bottom-[-100px] left-[-200px] bg-no-repeat object-cover object-center"
                     />
-                    <p className="font-medium text-base mt-2  text-bluePText">
+                    <p className="font-medium text-xl mt-2  text-yellow-800">
                     Whether you're seeking clarity, healing, or simply a deeper connection to yourself and the world around you, we invite you to join us on this sacred journey of self-discovery and awakening. 
 
                     <br />Together, let's embrace the challenges, celebrate the victories, and unlock the infinite potential that resides within each of us. Ready to embark on your own journey of transformation? Get in touch with us today to learn more about our offerings and how we can support you on your path to self-discovery and empowerment.
 
                     </p>
                 </div>  
-                <div className="relative basis-2/3 md:basis-1/2">
+                <div className="relative basis-2/3 md:basis-1/2 ">
                     <Image
                         className="w-full h-full object-contain object-cover"
                         src={mission_2_img}

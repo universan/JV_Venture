@@ -20,7 +20,7 @@ export default function Upcoming() {
           >
             UPCOMING RETREATS
           </p>
-          <p className="text-4xl text-blue-900 font-bold text-center z-20 relative mt-16 dark:text-gray-300">
+          <p className="text-4xl text-yellow-900 font-bold text-center z-20 relative mt-16 dark:text-gray-300">
             Open For You
           </p>
         </div>

@@ -35,7 +35,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="dark:bg-bgDark">
+      <div className="bg-[#e7ddd3] dark:bg-bgDark">
         <Dashboard
           address="225 S 1st streat, CA 11111"
           phone="780-993-9714"

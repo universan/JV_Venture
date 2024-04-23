@@ -6,7 +6,7 @@ import rightArrowIcon from '@/public/icons/rightArrowIcon.png';
 
 const Footer = () => {
   return (
-    <div className="relative bg-sky-100 border-t-2 border-solid border-[#ffd87d]">
+    <div className="relative bg-[#e7ddd3] border-t-2 border-solid border-[#ffd87d]">
       {/* Row 1 */}
       <div className="sm:flex justify-center items-center py-[20px] sm:py-[90px] px-2 ">
         {/* text  */}

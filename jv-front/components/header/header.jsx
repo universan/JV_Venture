@@ -22,7 +22,7 @@ const Header = () => {
   useEffect(() => {
     const handleColorChange = () => {
       if (window.scrollY >= 250) {
-        setHeaderColor('linear-gradient(to right, #8e2de2, #4a00e0)');
+        setHeaderColor('#cfbdaa');
         setHeaderText('#ffffff');
       } else {
         setHeaderColor('transparent');
@@ -40,8 +40,7 @@ const Header = () => {
        <div className="-z-40">
         <div className="flex flex-col justify-center items-center mt-20">
           <p
-            className="text-5xl sm:text-7xl md:text-10xl text-amber-700 opacity-20 font-black text-center z-10 absolute top-0 left-0 w-full dark:text-white
-          "
+            className="text-5xl sm:text-7xl md:text-10xl text-amber-700 opacity-20 font-black text-center z-10 absolute top-0 left-0 w-full dark:text-white"
           >
             JV VENTURES
           </p>
@@ -60,22 +59,21 @@ const Header = () => {
         </Link>
       </div>
 
-
-      {/* navbar Links */}
-
       <ul
         style={{ color: `${headerText}` }}
-        className="text-sm font-bold hidden sm:flex
-      "
+        className="text-sm font-bold hidden sm:flex"
       >
         <li className=" p-4 hover:text-orange-500">
           <Link href="#about-container">About</Link>
         </li>
         <li className=" p-4 hover:text-orange-500">
-          <Link href="#services">Services</Link>
+          <Link href="#mission-container">Mission</Link>
         </li>
         <li className=" p-4 hover:text-orange-500">
-          <Link href="#reviews">Reviews</Link>
+          <Link href="#upcoming-container">Upcoming</Link>
+        </li>
+        <li className=" p-4 hover:text-orange-500">
+          <Link href="#partnership-container">Partnership</Link>
         </li>
         <li className=" p-4 hover:text-orange-500">
           <Link href="#contact">Contact</Link>
@@ -86,7 +84,7 @@ const Header = () => {
         style={{ color: `${headerText}` }}
         className="hidden sm:flex text-sm font-bold ml-10 mr-5 hover:text-orange-500 cursor-pointer"
       >
-        Get In Touch
+        Admin panel
       </p>
       <div className="mr-10">
         <ThemeChanger />
