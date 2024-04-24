@@ -46,7 +46,7 @@ const Header = () => {
   return (
     <div
       style={{ background: `${headerColor}` }}
-      className="fixed top-0 left-0 w-full h-30 shadow-xl flex justify-between items-center z-40 ease-in duration-300"
+      className="fixed top-0 left-0 w-full h-20 shadow-xl flex justify-between items-center z-40 ease-in duration-300"
     >
        {/* <div className="-z-40">
         <div className="flex flex-col justify-center items-center mt-20">
@@ -90,9 +90,9 @@ const Header = () => {
             <li className=" p-4 hover:text-orange-500">
               <Link href="#contact-container">Contact</Link>
             </li>
-            <li className=" p-4 hover:text-orange-500">
+            {/* <li className=" p-4 hover:text-orange-500">
               <Link href="/admin/retreat">Admin panel</Link>
-            </li>
+            </li> */}
           </ul>
         ) 
         : (
@@ -115,13 +115,13 @@ const Header = () => {
             <li className=" p-4 hover:text-orange-500">
               <Link href="#contact-container">Contact</Link>
             </li>
-            <li className=" p-4 hover:text-orange-500">
+            {/* <li className=" p-4 hover:text-orange-500">
               <Link href="/admin/retreat">Admin panel</Link>
-            </li>
+            </li> */}
           </ul>
         )
       }
-      
+
       <div className="mr-10">
         <ThemeChanger />
       </div>
