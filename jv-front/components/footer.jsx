@@ -6,7 +6,7 @@ import rightArrowIcon from '@/public/icons/rightArrowIcon.png';
 
 const Footer = () => {
   return (
-    <div className="relative bg-[#e7ddd3] border-t-2 border-solid border-[#ffd87d]">
+    <div className="relative bg-[#e7ddd3] border-t-2 border-solid border-[#ffd87d] dark:bg-bgDark">
       {/* Row 1 */}
       <div className="sm:flex justify-center items-center py-[20px] sm:py-[90px] px-2 ">
         {/* text  */}
@@ -14,35 +14,25 @@ const Footer = () => {
           ZV VENTURES
         </p>
         {/* menu  */}
-        <div className="relative flex gap-5 justify-center items-centers  sm:w-[450px] ">
-          <ul className="grid  sm:grid-cols-3 gap-5 text-center sm:gap-10 ">
+        <div className="relative flex gap-5 justify-center items-centers  sm:w-[450px] mx-10">
+          <ul className="grid  sm:grid-cols-4 gap-5 text-center sm:gap-10">
             <li>
-              <Link href="/" className="py-2 hover:text-orange-500">
+              <Link href="/" className="py-2 hover:text-orange-500 dark:text-gray-300">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/" className="py-2 hover:text-orange-500">
-                Gallery
+              <Link href="/house" className="py-2 hover:text-orange-500 dark:text-gray-300">
+                Real Estate
               </Link>
             </li>
             <li>
-              <Link href="/" className="py-2 hover:text-orange-500">
-                Services
+              <Link href="/retreat" className="py-2 hover:text-orange-500 dark:text-gray-300">
+                Retreats
               </Link>
             </li>
             <li>
-              <Link href="/" className="py-2 hover:text-orange-500">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="/" className="py-2 hover:text-orange-500">
-                Deals
-              </Link>
-            </li>
-            <li>
-              <Link href="/" className="py-2 hover:text-orange-500">
+              <Link href="#contact" className="py-2 hover:text-orange-500 dark:text-gray-300">
                 Contacts
               </Link>
             </li>
@@ -77,7 +67,7 @@ const Footer = () => {
               className="w-[30px] h-[30px]"
             />
           </div>
-          <div className="flex justify-center items-center p-2">
+          <div className="flex justify-center items-center p-2 dark:text-gray-300">
             <p>1.1M satisfied customers</p>
           </div>
         </div>

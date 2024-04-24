@@ -18,13 +18,13 @@ const CardRetreat = ({title, description, period, imageSrc }) => {
           </div>
         </div>
         <div className="p-2">
-          <p className="font-medium text-base p-1  text-yellow-800">
+          <p className="font-medium text-base p-1  text-yellow-800 dark:text-gray-300">
             {description}
           </p>
         </div>
         <div className="p-2">
-          <p className="font-medium text-base p-1  text-yellow-800">
-            {period}
+          <p className="font-medium text-base p-1  text-yellow-800 dark:text-gray-300">
+            {period} 
           </p>
         </div>
       </div>

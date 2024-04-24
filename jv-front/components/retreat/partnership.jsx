@@ -31,7 +31,7 @@ export default function Partnership() {
       </div>
       
       <div className="justify-center m-20 bottom-8">
-        <p className="font-medium text-base text-center text-yellow-800">
+        <p className="font-medium text-base text-center text-yellow-800 dark:text-gray-300">
         At JV Ventures, we specialize in organizing transformative wellness retreats that offer participants a unique opportunity to rejuvenate their mind, body, and spirit in serene and rejuvenating environments. 
 
         <br />Our retreats focus on holistic wellness practices, including yoga, meditation, mindfulness, nutrition, and outdoor activities, all aimed at promoting physical, mental, and emotional well-being.
@@ -62,7 +62,7 @@ export default function Partnership() {
                   className="absolute z-10 top-[-50px] right-[0px] bg-no-repeat object-cover object-center"
                 />  */}
                 <div className="basis-1/3 md:basis-1/2 p-4">
-                  <p className="font-medium text-xl mt-2  text-yellow-800">
+                  <p className="font-medium text-xl mt-2  text-yellow-800 dark:text-gray-300">
                   1.  Brand Exposure:<br/>
                   Your logo and branding will be prominently featured
                   in our promotional materials, including event signage, marketing collateral, and social media channels, reaching thousands of potential customers who are passionate about wellness.
@@ -99,7 +99,7 @@ export default function Partnership() {
                         className="absolute z-10 opacity-50 rotate-180 bottom-[-100px] left-[-200px] bg-no-repeat object-cover object-center"
                 /> */}
                 <div className="basis-2/3 md:basis-1/2 p-4 whitespace-normal ">
-                    <p className="font-medium text-xl mt-2  text-yellow-800">
+                    <p className="font-medium text-xl mt-2  text-yellow-800 dark:text-gray-300">
                     3. Positive Brand Association:
                     Aligning your brand with our wellness retreats will enhance your reputation as a socially responsible company that prioritizes the well-being of its customers and employees.
                     <br />
@@ -119,7 +119,7 @@ export default function Partnership() {
                   className="absolute z-10 top-[-50px] right-[0px] bg-no-repeat object-cover object-center"
                 />  */}
                 <div className="basis-2/3 p-4">
-                  <p className="font-medium text-xl mt-2  text-yellow-800">
+                  <p className="font-medium text-xl mt-2  text-yellow-800 dark:text-gray-300">
                   We believe that a partnership between your company and JV Ventures has the potential to create a mutually beneficial relationship that not only promotes wellness but also generates positive brand exposure and fosters community engagement.
 
                   <br />We would love the opportunity to discuss this partnership further and explore how we can work together to create meaningful and impactful wellness experiences for our participants.

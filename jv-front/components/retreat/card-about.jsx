@@ -19,7 +19,7 @@ const CardAbout = ({title, description,  imageSrc }) => {
           />
         </div>
         <div className="p-4">
-          <p className="font-medium text-base mt-2  text-yellow-700">
+          <p className="font-medium text-base mt-2  text-yellow-700 dark:text-gray-300">
             {description}
           </p>
         </div>

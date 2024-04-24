@@ -40,7 +40,7 @@ export default function Mission() {
                     />
                 </div>
                 <div className="basis-2/3 md:basis-1/2 p-4 relative whitespace-normal">
-                    <p className="font-medium text-xl mt-2  text-yellow-800 w-full h-full">
+                    <p className="font-medium text-xl mt-2  text-yellow-800 w-full h-full dark:text-gray-300">
                         Our mission is simple yet profound: to inspire and empower individuals to awaken to their fullest potential and live authentically from the heart. We believe that true transformation begins from within and that each of us has the power to create the life we desire.
                         <br />From transformative retreats and workshops to guided meditation sessions and personalized coaching, we offer a range of experiences designed to support you on your journey of self-discovery and empowerment. 
                         <br />Our approach is holistic, honoring the mind, body, and spirit, and our teachings draw upon
@@ -62,7 +62,7 @@ export default function Mission() {
                         alt="leaf image"
                         className="absolute -z-10 opacity-50 rotate-180 bottom-[-100px] left-[-200px] bg-no-repeat object-cover object-center"
                     />
-                    <p className="font-medium text-xl mt-2  text-yellow-800">
+                    <p className="font-medium text-xl mt-2  text-yellow-800 dark:text-gray-300">
                     Whether you're seeking clarity, healing, or simply a deeper connection to yourself and the world around you, we invite you to join us on this sacred journey of self-discovery and awakening. 
 
                     <br />Together, let's embrace the challenges, celebrate the victories, and unlock the infinite potential that resides within each of us. Ready to embark on your own journey of transformation? Get in touch with us today to learn more about our offerings and how we can support you on your path to self-discovery and empowerment.

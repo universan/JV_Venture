@@ -37,7 +37,7 @@ export default function About() {
       </div>
 
       <div className="relative justify-center items-center">
-        <p className="font-serif text-base text-center text-yellow-800 mt-20 ">
+        <p className="font-serif text-base text-center text-yellow-800 mt-20 dark:text-gray-300 ">
             In the bustling rhythm of modern life, it's easy to get caught up in the whirlwind of tasks and responsibilities, losing touch with ourselves and each other along the way. 
             <br />
             That's why we're excited to introduce various themed retreats: from women's only, co-ed, couples, business and youth, so whatever your need, we have a retreat for you. 
@@ -56,7 +56,7 @@ export default function About() {
                     />
                 </div>
                 <div className="basis-2/3 p-4">
-                    <p className="font-serif text-base mt-2  text-yellow-700 ">
+                    <p className="font-serif text-base mt-2  text-yellow-700 dark:text-gray-300">
                         At JV Ventures, we recognize the profound benefits that retreats offer in fostering personal growth, team cohesion, and collective well-being. That's why we're committed to creating opportunities for retreat experiences that nurture mind, body, and spirit.
 
                     </p>
@@ -73,7 +73,7 @@ export default function About() {
                     />
                 </div>
                 <div className="basis-2/3 p-4">
-                    <p className="font-serif text-base mt-2  text-yellow-700">
+                    <p className="font-serif text-base mt-2  text-yellow-700 dark:text-gray-300">
                     Join us on this journey of self-discovery, connection, and renewal by attending one of our Retreats. Together, let's embrace the transformative power of retreats and cultivate a culture of flourishing.
 
                     </p>
