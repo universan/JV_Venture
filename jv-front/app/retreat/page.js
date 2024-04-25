@@ -10,7 +10,7 @@ import Upcoming from '@/components/retreat/upcoming';
 import Mission from '@/components/retreat/mission';
 import Partnership from '@/components/retreat/partnership';
 
-const HomePage = () => {
+const RetreatPage = () => {
   const [showButton, setShowButton] = useState(false);
 
   const handleScrollToTop = () => {
@@ -63,4 +63,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default RetreatPage;
