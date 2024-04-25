@@ -6,16 +6,15 @@ import CardRetreat from './card-retreat';
 import { useRetreat } from '@/context/retreat';
 import Pagination from '../Pagination';
 import { usePathname } from 'next/navigation';
+
 export default function Upcoming() {
     const {
         retreats,
         currentPage,
         totalPages,
         fetchRetreats,
-        setUpdatingRetreat,
     } = useRetreat();
     
-    const pathname = usePathname();
     const [page, setPage] = useState(1);
 
     useEffect(() => {
@@ -52,10 +51,9 @@ export default function Upcoming() {
         }
       </div>
       <Pagination
-            currentPage={currentPage}
-            totalPages={totalPages}
-            // pathname={pathname}
-            setPage={setPage}
+        currentPage={currentPage}
+        totalPages={totalPages}
+        setPage={setPage}
       />
     </div>
   );

@@ -19,7 +19,6 @@ const HomePage = () => {
 
 
   useEffect(() => {
-
     const handleScroll = () => {
       if (window.scrollY > 500) {
         setShowButton(true);
