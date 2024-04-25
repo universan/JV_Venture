@@ -19,7 +19,7 @@ export default function Mission() {
       <div className="relative ">
         <div className="flex flex-col justify-center items-center mt-20">
           <p
-            className="text-9xl sm:text-10xl text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white"
+            className="text-6xl sm:text-7xl text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white"
           >
             OUR MISSION
           </p>
@@ -31,7 +31,7 @@ export default function Mission() {
       
       <div className="flex flex-col gap-5 m-10">
         <div className="whitespace-normal m-10 overflow-hidden opacity:0 dark:bg-slate-700">
-            <div className="flex flex-col sm:flex-row items-center gap-10">    
+            <div className="flex flex-col md:flex-row items-center gap-5 md:gap-10">    
                 <div className="relative basis-1/3 md:basis-1/2">
                     <Image
                         className="w-full h-full object-contain object-cover"
@@ -49,18 +49,18 @@ export default function Mission() {
                     <Image 
                         src={leaf}
                         alt="leaf image"
-                        className="absolute -z-10 opacity-50 top-[-100px] right-[-200px] bg-no-repeat object-cover object-center"
+                        className="absolute -z-10 opacity-50 top-[0px] right-[0px] bg-no-repeat object-cover object-center"
                     />
                 </div>
             </div>
         </div>    
         <div className="whitespace-normal m-10 overflow-hidden dark:bg-slate-700">
-            <div className="flex flex-col sm:flex-row items-center gap-10">  
+            <div className="flex flex-col md:flex-row items-center gap-10">  
                  <div className="basis-1/3 md:basis-1/2 p-4 relative whitespace-normal">
                     <Image 
                         src={leaf}
                         alt="leaf image"
-                        className="absolute -z-10 opacity-50 rotate-180 bottom-[-100px] left-[-200px] bg-no-repeat object-cover object-center"
+                        className="absolute -z-10 opacity-50 rotate-180 bottom-[0px] left-[0px] bg-no-repeat object-cover object-center"
                     />
                     <p className="font-medium text-xl mt-2  text-yellow-800 dark:text-gray-300">
                     Whether you're seeking clarity, healing, or simply a deeper connection to yourself and the world around you, we invite you to join us on this sacred journey of self-discovery and awakening. 

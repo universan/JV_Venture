@@ -17,7 +17,9 @@ const HomePage = () => {
     window.scrollTo({ top: (0, 0), behavior: 'smooth' });
   };
 
+
   useEffect(() => {
+
     const handleScroll = () => {
       if (window.scrollY > 500) {
         setShowButton(true);
@@ -43,13 +45,10 @@ const HomePage = () => {
         />
 
         <About />
-
         <Upcoming />
         <Mission />
         <Partnership />
-        {/* <Review />
-        <Insta />
-        <Form /> */}
+   
         {showButton && (
           <div className="fixed bottom-24 right-10 z-50">
             <button

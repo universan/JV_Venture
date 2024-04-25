@@ -29,17 +29,17 @@ const Dashboard = ({ address, phone, email }) => {
             find retreats for you
           </h1>
           {/* Icons and Text under Heading */}
-          <div className="hidden sm:flex mt-24 justify-center items-center">
-            <div className="flex mr-11 ">
+          <div className="hidden sm:flex mt-24 justify-between items-center">
+            {/* <div className="flex mr-11 ">
               <Image
                 src={arrowIcon}
                 alt="arrow icon"
                 className="w-5 h-5 mx-9 self-center"
               />
               <p className="text-white text-xl py-2 ">{address}</p>
-            </div>
+            </div> */}
 
-            <div className="flex ml-20 mr-20">
+            <div className="flex mr-20">
               <Image
                 src={phoneIcon}
                 alt="phone icon"

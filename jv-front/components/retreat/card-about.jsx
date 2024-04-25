@@ -11,11 +11,10 @@ const CardAbout = ({title, description,  imageSrc }) => {
         </div>
         <div className="relative">
           <Image
-            width={350} height={150}
-            className="w-full object-contain"
+            width={350} height={250}                        
+            className="h-[250px] w-[350px] object-cover cursor-pointer"
             src={imageSrc}
             alt="retreat image"
-            
           />
         </div>
         <div className="p-4">

@@ -13,7 +13,7 @@ export default function About() {
         <Image 
             src={leaf}
             alt="leaf image"
-            className="absolute top-[-100px] right-[-300px] bg-no-repeat scale-50 object-cover object-center"
+            className="absolute w-1/2 top-0 right-0 bg-no-repeat object-cover"
         />
       {/* </div> */}
       <div className="flex justify-center items-center">
@@ -25,7 +25,7 @@ export default function About() {
       <div className="relative ">
         <div className="flex flex-col justify-center items-center mt-20">
           <p
-            className="text-9xl sm:text-10xl text-blue-700 opacity-5 font-serif font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
+            className="text-6xl sm:text-7xl text-blue-700 opacity-5 font-serif font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
           "
           >
             OUR IDEA
@@ -85,7 +85,7 @@ export default function About() {
       <div className="relative ">
         <div className="flex flex-col justify-center items-center m-20">
           <p
-            className="text-5xl sm:text-6xl text-yellow-900 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
+            className="text-4xl sm:text-5xl lg-text-6xl text-yellow-900 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white
           "
           >
             Retreats aren't just a luxury. <br /> they're a necessity in today's fast-paced world

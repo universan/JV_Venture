@@ -1,2 +1,4 @@
 # JV_Venture
-real estate and retreats service site
+real estates and retreats service site
+stack: Next.js, MongoDB-AWS, Cloudinary
+deployment URL- https://jv-venture.vercel.app

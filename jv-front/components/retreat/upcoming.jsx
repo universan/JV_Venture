@@ -1,10 +1,28 @@
-import React from 'react';
+"use client"
+import React, { useState , useEffect} from 'react';
 import Image from 'next/image';
 import {upcoming_data} from "@/public/data/retreat_about";
 import CardRetreat from './card-retreat';
-import leaf from '@/public/image/leaf.png';
-
+import { useRetreat } from '@/context/retreat';
+import Pagination from '../Pagination';
+import { usePathname } from 'next/navigation';
 export default function Upcoming() {
+    const {
+        retreats,
+        currentPage,
+        totalPages,
+        fetchRetreats,
+        setUpdatingRetreat,
+    } = useRetreat();
+    
+    const pathname = usePathname();
+    const [page, setPage] = useState(1);
+
+    useEffect(() => {
+    // console.log(page);
+    fetchRetreats(page);
+    }, [page]);
+
   return (
     <div id="upcoming-container" className="relative p-4 mb-4">
       <div className="flex justify-center items-center">
@@ -16,7 +34,7 @@ export default function Upcoming() {
       <div className="relative ">
         <div className="flex flex-col justify-center items-center mt-20">
           <p
-            className="text-7xl sm:text-8xl text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white"
+            className="text-6xl sm:text-7xl text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white"
           >
             UPCOMING RETREATS
           </p>
@@ -28,11 +46,17 @@ export default function Upcoming() {
 
       <div className="flex flex-col sm:grid md:grid-cols-2 xl:grid-cols-3 gap-5 m-10 p-5 ">
         {
-            upcoming_data.map((item) => 
-                <CardRetreat key={item.title} title={item.title} description={item.description} period={item.period} imageSrc={item.img} />
+            retreats.map((item) => 
+                <CardRetreat key={item.title} title={item.title} description={item.description} period={item.period} imageSrc={item.images[0].secure_url} />
             )
         }
       </div>
+      <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            // pathname={pathname}
+            setPage={setPage}
+      />
     </div>
   );
 }

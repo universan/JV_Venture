@@ -35,7 +35,7 @@ export default function Home() {
               
               </div>
             </div>
-            <div className="z-40 -m-8">
+            <div className="hidden sm:block z-20 -m-8">
               <div className="flex flex-col justify-center items-center mt-20">
                 <Image
                     src={arch}
@@ -69,13 +69,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="welcome-container" className="flex flex-row m-10 p-5">
+      <div id="welcome-container" className="flex flex-col md:flex-row m-10 p-5">
         <div className="basis-3/4 h-full bg-[#cfbdaa] dark:bg-bgDark">
           <div className="">
-            <p className="m-10  font-serif text-base text-5xl sm:text-7xl md:text-10xl text-yellow-900 dark:text-gray-300">
+            <p className="m-10 text-center md:text-left font-serif text-base sm:text-5xl lg:text-7xl text-yellow-900 dark:text-gray-300">
               Welcome <br /> Message
             </p>
-            <p className="m-10  font-serif text-1xl sm:text-3xl md:text-3xl text-yellow-800 dark:text-gray-300">
+            <p className="m-10  font-serif text-1xl sm:text-2xl lg:text-3xl text-yellow-800 dark:text-gray-300">
               Welcome to JV Ventures Retreats, where personal transformation meets empowerment. 
               My journey began during the unprecedented times of the Covid-19 pandemic, when the world seemed to slow down, and introspection became a
               necessity rather than a luxury.
@@ -91,7 +91,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id ="awakening-container" className="flex flex-row m-10 p-5">
+      <div id ="awakening-container" className="flex flex-col md:flex-row m-10 p-5">
         <div className="basis-1/4 flex flex-col items-center justify-center p-2">
           <Image 
             src={awakening_img}
@@ -101,10 +101,10 @@ export default function Home() {
         </div>
         <div className="basis-3/4 h-full bg-[#cfbdaa] dark:bg-bgDark">
           <div className="dark:text-gray-300">
-            <p className="m-10 font-serif text-base text-5xl sm:text-7xl md:text-10xl text-yellow-900 text-right dark:text-gray-300">
+            <p className="m-10 text-center md:text-right font-serif text-base sm:text-5xl lg:text-7xl text-yellow-900 dark:text-gray-300">
               The Awakening
             </p>
-            <p className="m-10  font-serif text-1xl sm:text-3xl md:text-3xl text-yellow-800 dark:text-gray-300">
+            <p className="m-10  font-serif text-1xl sm:text-2xl lg:text-3xl text-yellow-800 dark:text-gray-300">
             Like many, I found myself facing unexpected challenges and uncertainties as the pandemic unfolded. The disruptions to daily life forced me to pause, reflect, and reevaluate my priorities. It was during this time of introspection that I embarked on a profound journey of self-discovery and awakening.
             <br />As the world around me shifted, I realized the opportunity for growth that lay within the chaos. I embraced change with an open heart and an open mind, seeking wisdom in moments of solitude and solace in the beauty of nature.
 
@@ -115,14 +115,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="purpose-container" className="flex flex-row m-10 p-5">
+      <div id="purpose-container" className="flex flex-col md:flex-row m-10 p-5">
         <div className="basis-3/4 h-full bg-[#cfbdaa] dark:bg-bgDark">
           <div className="dark:text-gray-300">
-            <p className="m-10  font-serif text-base text-5xl sm:text-7xl md:text-10xl text-yellow-900 dark:text-gray-300">
+            <p className="m-10 text-center md:text-left font-serif text-base sm:text-5xl lg:text-7xl text-yellow-900 dark:text-gray-300">
             Finding Purpose
 
             </p>
-            <p className="m-10  font-serif text-1xl sm:text-3xl md:text-3xl text-yellow-800 dark:text-gray-300">
+            <p className="m-10  font-serif text-1xl sm:text-2xl lg:text-3xl text-yellow-800 dark:text-gray-300">
             The challenges of the pandemic served as a catalyst for profound inner transformation. I discovered a newfound sense of clarity, purpose, and alignment with my authentic self. It was through this process of
             self-discovery that JV Ventures was born, a platform dedicated to empowering others on their own journey of personal growth and fulfillment, by teaming up with the people and teachers that I discovered along the way, and can nowshare with others.
 

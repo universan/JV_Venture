@@ -6,11 +6,12 @@ const CardRetreat = ({title, description, period, imageSrc }) => {
       <div className="flex flex-col items-center">    
         <div className="relative">
           <Image
-            width={350} height={150}
-            className="w-full object-contain"
+            width={350} height={250}                        
+            className="h-[250px] w-[350px] object-cover cursor-pointer"
             src={imageSrc}
             alt="retreat image"
           />
+    
         </div>
         <div className="p-2">
           <div className="capitalize text-cardText font-black text-yellow-800 text-[20px] leading-[30px] dark:text-white">

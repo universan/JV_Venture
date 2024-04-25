@@ -25,7 +25,7 @@ const Header = () => {
   useEffect(() => {
     const handleColorChange = () => {
       // console.log("dddd");
-      if (window.scrollY >= 250) {
+      if (window.scrollY >= 550) {
         // console.log(theme);
         if(theme === 'light') {
           setHeaderColor('#cfbdaa');
@@ -59,66 +59,84 @@ const Header = () => {
       </div> */}
       {/* Menu + Name */}
 
-      <div className="max-w-[1240px] m-5 flex justify-between items-center p-4">
+      <div className="max-w-[1240px] m-3 flex justify-center items-center p-8">
         <Link href="/">
           <h1
             style={{ color: `${headerText}` }}
-            className="py-2 text-2xl font-bold hover:text-orange-500"
+            className="py-2 text-1xl md:text-2xl font-bold hover:text-orange-500"
           >
             JV VENTURE
           </h1>
         </Link>
       </div>
       {
-        pathname.includes('retreat') ? (
+        pathname.includes('retreat') && !pathname.includes('admin') ? (
           <ul
             style={{ color: `${headerText}` }}
             className="text-sm font-bold hidden sm:flex "
           >
-            <li className=" p-4 hover:text-orange-500">
+            <li className=" p-2 md:p-3 hover:text-orange-500">
               <Link href="#about-container">About</Link>
             </li>
-            <li className=" p-4 hover:text-orange-500">
+            <li className=" p-2 md:p-3 hover:text-orange-500">
               <Link href="#mission-container">Mission</Link>
             </li>
-            <li className=" p-4 hover:text-orange-500">
+            <li className=" p-2 md:p-3 hover:text-orange-500">
               <Link href="#upcoming-container">Upcoming</Link>
             </li>
-            <li className=" p-4 hover:text-orange-500">
+            <li className=" p-2 md:p-3 hover:text-orange-500">
               <Link href="#partnership-container">Partnership</Link>
             </li>
-            <li className=" p-4 hover:text-orange-500">
+            <li className=" p-2 md:p-3 hover:text-orange-500">
               <Link href="#contact-container">Contact</Link>
             </li>
-            {/* <li className=" p-4 hover:text-orange-500">
-              <Link href="/admin/retreat">Admin panel</Link>
-            </li> */}
+            <li className="p-2 md:p-3 hover:text-orange-500">
+              <Link href="/admin">Admin panel</Link>
+            </li>
           </ul>
         ) 
-        : (
+        : (pathname.includes('admin') ? (
           <ul
           style={{ color: `${headerText}` }}
           className="text-sm font-bold hidden sm:flex "
           >
             <li className=" p-4 hover:text-orange-500">
-              <Link href="#dash-container">Dash</Link>
+              <Link href="/admin">About Admin</Link>
+            </li>      
+            <li className=" p-4 hover:text-orange-500">
+              <Link href="/admin/retreats">Retreat List</Link>
             </li>
             <li className=" p-4 hover:text-orange-500">
-              <Link href="#welcome-container">Welcome</Link>
+              <Link href="/admin/retreat">Add a Retreat</Link>
             </li>
-            <li className=" p-4 hover:text-orange-500">
-              <Link href="#awakening-container">Awakening</Link>
-            </li>
-            <li className=" p-4 hover:text-orange-500">
-              <Link href="#purpose-container">Purpose</Link>
-            </li>
-            <li className=" p-4 hover:text-orange-500">
-              <Link href="#contact-container">Contact</Link>
-            </li>
-            {/* <li className=" p-4 hover:text-orange-500">
-              <Link href="/admin/retreat">Admin panel</Link>
-            </li> */}
           </ul>
+        )
+        
+        :(
+            <ul
+            style={{ color: `${headerText}` }}
+            className="text-sm font-bold hidden sm:flex "
+            >
+              <li className=" p-2 md:p-3 hover:text-orange-500">
+                <Link href="#dash-container">Dash</Link>
+              </li>
+              <li className=" p-2 md:p-3 hover:text-orange-500">
+                <Link href="#welcome-container">Welcome</Link>
+              </li>
+              <li className=" p-2 md:p-3 hover:text-orange-500">
+                <Link href="#awakening-container">Awakening</Link>
+              </li>
+              <li className=" p-2 md:p-3 hover:text-orange-500">
+                <Link href="#purpose-container">Purpose</Link>
+              </li>
+              <li className=" p-2 md:p-3 hover:text-orange-500">
+                <Link href="#contact-container">Contact</Link>
+              </li>
+              <li className=" p-2 md:p-3 hover:text-orange-500">
+                <Link href="/admin">Admin panel</Link>
+              </li>
+            </ul>
+          )
         )
       }
 
@@ -128,7 +146,7 @@ const Header = () => {
 
       {/* Mobile hamburgerMenu */}
 
-      <div onClick={handleHeader} className="block sm:hidden p-4 z-10">
+      <div onClick={handleHeader} className="block sm:hidden p-4 z-50">
         {header ? (
           <AiOutlineClose size={30} style={{ color: `${headerText}` }} />
         ) : (
@@ -209,7 +227,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="mx-7 py-4 text-4xl hover:text-orange-500">
-              <Link href="/admin/retreat" onClick={handleMobileHeader}>
+              <Link href="/admin" onClick={handleMobileHeader}>
                 Admin Panel
               </Link>
             </li>

@@ -3,10 +3,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import starIcon from '@/public/icons/starIcon.png';
 import rightArrowIcon from '@/public/icons/rightArrowIcon.png';
+import about_admin_img from '@/public/image/admin.png'
+import phoneIcon from '@/public/icons/contact.png';
+import mailIcon from '@/public/icons/mail.png';
 
 const Footer = () => {
   return (
-    <div className="relative bg-[#e7ddd3] border-t-2 border-solid border-[#ffd87d] dark:bg-bgDark">
+    <div id="contact-container" className="relative bg-[#e7ddd3] border-t-2 border-solid border-[#ffd87d] dark:bg-bgDark">
       {/* Row 1 */}
       <div className="sm:flex justify-center items-center py-[20px] sm:py-[90px] px-2 ">
         {/* text  */}
@@ -39,8 +42,8 @@ const Footer = () => {
           </ul>
         </div>
         {/* rating */}
-        <div className="flex flex-col items-center sm:items-start gap-1 mt-5 sm:mt-0">
-          <div className="flex">
+        <div className="basis-1/3 flex flex-col items-center sm:items-start gap-1 mt-5 sm:mt-0">
+          {/* <div className="flex">
             <Image
               src={starIcon}
               alt="ratings "
@@ -66,10 +69,40 @@ const Footer = () => {
               alt="ratings "
               className="w-[30px] h-[30px]"
             />
+          </div> */}
+          <div className='flex flex-row justify-center items-center'>
+            <div className='basis-1/2'>
+              <Image 
+                  src={about_admin_img}
+                  alt="about admin"
+                  className="w-2/3 h-auto"
+              />
+            </div>
+            <div className='basis-1/2 m-4'>
+            <div className="flex flex-col p-2 dark:text-gray-300">
+            {/* <p>1.1M satisfied customers</p> */}
+              <div className="flex">
+                <Image
+                  src={phoneIcon}
+                  alt="phone icon"
+                  className="w-5 h-5 mx-9 self-center"
+                />
+                <p className="text-white text-xl py-2">780-993-9714</p>
+              </div>
+
+              <div className="flex">
+                <Image
+                  src={mailIcon}
+                  alt="mail icon"
+                  className="w-5 h-5 mx-9 self-center"
+                />
+                <p className="text-white text-xl py-2">info@jvventures.ca</p>
+              </div>
           </div>
-          <div className="flex justify-center items-center p-2 dark:text-gray-300">
-            <p>1.1M satisfied customers</p>
+            </div>
+
           </div>
+
         </div>
       </div>
 

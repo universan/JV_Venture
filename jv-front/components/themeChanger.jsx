@@ -24,9 +24,9 @@ const ThemeChanger = () => {
         aria-label="Toggle Dark Mode"
       >
         {theme === 'dark' ? (
-          <RiMoonLine size={30} />
+          <RiMoonLine size={30} color="white" />
         ) : (
-          <RiSunLine size={30} color="white" />
+          <RiSunLine size={30} color="yellow" />
         )}
       </button>
     </>

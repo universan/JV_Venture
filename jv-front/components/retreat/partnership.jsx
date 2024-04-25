@@ -19,7 +19,7 @@ export default function Partnership() {
       <div className="relative">
         <div className="flex flex-col justify-center items-center mt-20">
           <p
-            className="text-9xl sm:text-10xl text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white"
+            className="text-3xl sm:text-7xl text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full dark:text-white"
           >
             PARTNERSHIP OPPORTUNITY
           </p>
@@ -30,7 +30,7 @@ export default function Partnership() {
         </div>
       </div>
       
-      <div className="justify-center m-20 bottom-8">
+      <div className="hidden sm:block justify-center m-20 bottom-8">
         <p className="font-medium text-base text-center text-yellow-800 dark:text-gray-300">
         At JV Ventures, we specialize in organizing transformative wellness retreats that offer participants a unique opportunity to rejuvenate their mind, body, and spirit in serene and rejuvenating environments. 
 
@@ -55,7 +55,7 @@ export default function Partnership() {
 
       <div className="flex flex-col gap-5 m-10"> 
         <div className="whitespace-normal m-10 overflow-hidden dark:bg-slate-700">
-            <div className="flex flex-col sm:flex-row items-center gap-10 relative"> 
+            <div className="flex flex-col md:flex-row items-center gap-5 md:gap-10 relative"> 
                 {/* <Image 
                   src={circle}
                   alt="leaf image"
@@ -85,7 +85,7 @@ export default function Partnership() {
             </div>
         </div>    
         <div className="whitespace-normal  m-10 overflow-hidden opacity:0 dark:bg-slate-700">
-            <div className="flex flex-col sm:flex-row items-center gap-10">    
+            <div className="flex flex-col md:flex-row items-center gap-5 md:gap-10">    
                 <div className="relative basis-1/3 md:basis-1/2 relative">
                     <Image
                         className="w-full h-full object-contain object-cover"
@@ -112,7 +112,7 @@ export default function Partnership() {
             </div>
         </div>  
         <div className="whitespace-normal  m-10 overflow-hidden dark:bg-slate-700">
-            <div className="flex flex-col sm:flex-row items-center gap-10 relative"> 
+            <div className="flex flex-col md:flex-row items-center gap-5 md:gap-10 relative"> 
                 {/* <Image 
                   src={circle}
                   alt="leaf image"
@@ -133,7 +133,7 @@ export default function Partnership() {
                 </div>  
                 <div className="relative basis-1/3 whitespace-normal">
                     <Image
-                        className="w-full h-full object-contain object-cover"
+                        className="w-full h-full object-cover"
                         src={partner_3_img}
                         alt="retreat image"   
                     />
